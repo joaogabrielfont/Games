@@ -6,5 +6,6 @@ target 'Games' do
   use_frameworks!
 
   pod 'Alamofire'
+  pod 'YouTubePlayer'
 
 end

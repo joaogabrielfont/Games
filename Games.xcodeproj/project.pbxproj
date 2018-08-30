@@ -15,7 +15,14 @@
 		7F0E16AE213731FB008EB4F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0E16AC213731FB008EB4F4 /* LaunchScreen.storyboard */; };
 		7F0E16B621373236008EB4F4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E16B521373236008EB4F4 /* Game.swift */; };
 		7F0E16B821373521008EB4F4 /* OnlineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E16B721373521008EB4F4 /* OnlineService.swift */; };
+		7F14D4FB21386E0800FE73F2 /* NotificationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F14D4FA21386E0800FE73F2 /* NotificationConstants.swift */; };
 		7F5280E32137363500D5D34B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5280E22137363500D5D34B /* User.swift */; };
+		7F5280E52137422B00D5D34B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5280E42137422B00D5D34B /* WelcomeViewController.swift */; };
+		7F5280E72137423900D5D34B /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5280E62137423900D5D34B /* UserDetailsViewController.swift */; };
+		7F5280E92137424500D5D34B /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5280E82137424500D5D34B /* GamesViewController.swift */; };
+		7F5280EE213742B500D5D34B /* GameDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5280ED213742B500D5D34B /* GameDetailViewController.swift */; };
+		7F5280F42137438700D5D34B /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5280F22137438700D5D34B /* GameTableViewCell.swift */; };
+		7F5280F52137438700D5D34B /* GameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F5280F32137438700D5D34B /* GameTableViewCell.xib */; };
 		9A5AAC24D8735141D4B97467 /* Pods_Games.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3959A624F237BBC6AE984F3 /* Pods_Games.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +38,14 @@
 		7F0E16AF213731FB008EB4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F0E16B521373236008EB4F4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		7F0E16B721373521008EB4F4 /* OnlineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineService.swift; sourceTree = "<group>"; };
+		7F14D4FA21386E0800FE73F2 /* NotificationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationConstants.swift; sourceTree = "<group>"; };
 		7F5280E22137363500D5D34B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7F5280E42137422B00D5D34B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		7F5280E62137423900D5D34B /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		7F5280E82137424500D5D34B /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		7F5280ED213742B500D5D34B /* GameDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailViewController.swift; sourceTree = "<group>"; };
+		7F5280F22137438700D5D34B /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		7F5280F32137438700D5D34B /* GameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameTableViewCell.xib; sourceTree = "<group>"; };
 		B2A2FB473FFE101A7CEFE27B /* Pods-Games.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Games.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Games/Pods-Games.debug.xcconfig"; sourceTree = "<group>"; };
 		C3959A624F237BBC6AE984F3 /* Pods_Games.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Games.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,18 +91,49 @@
 		7F0E169F213731F9008EB4F4 /* Games */ = {
 			isa = PBXGroup;
 			children = (
+				7F5280F12137436400D5D34B /* TableCells */,
+				7F5280EC2137426500D5D34B /* Models */,
+				7F5280EB2137425200D5D34B /* ViewControllers */,
 				7F0E16A0213731F9008EB4F4 /* AppDelegate.swift */,
 				7F0E16A2213731F9008EB4F4 /* ViewController.swift */,
 				7F0E16A4213731F9008EB4F4 /* Main.storyboard */,
-				7F0E16B521373236008EB4F4 /* Game.swift */,
-				7F5280E22137363500D5D34B /* User.swift */,
 				7F0E16AA213731FB008EB4F4 /* Assets.xcassets */,
 				7F0E16AC213731FB008EB4F4 /* LaunchScreen.storyboard */,
 				7F0E16AF213731FB008EB4F4 /* Info.plist */,
 				7F0E16A7213731F9008EB4F4 /* Games.xcdatamodeld */,
 				7F0E16B721373521008EB4F4 /* OnlineService.swift */,
+				7F14D4FA21386E0800FE73F2 /* NotificationConstants.swift */,
 			);
 			path = Games;
+			sourceTree = "<group>";
+		};
+		7F5280EB2137425200D5D34B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F5280E82137424500D5D34B /* GamesViewController.swift */,
+				7F5280E62137423900D5D34B /* UserDetailsViewController.swift */,
+				7F5280E42137422B00D5D34B /* WelcomeViewController.swift */,
+				7F5280ED213742B500D5D34B /* GameDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7F5280EC2137426500D5D34B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F0E16B521373236008EB4F4 /* Game.swift */,
+				7F5280E22137363500D5D34B /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F5280F12137436400D5D34B /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				7F5280F22137438700D5D34B /* GameTableViewCell.swift */,
+				7F5280F32137438700D5D34B /* GameTableViewCell.xib */,
+			);
+			path = TableCells;
 			sourceTree = "<group>";
 		};
 		B1DC4944B16E56AFFFCBA083 /* Pods */ = {
@@ -164,6 +209,7 @@
 				7F0E16AE213731FB008EB4F4 /* LaunchScreen.storyboard in Resources */,
 				7F0E16AB213731FB008EB4F4 /* Assets.xcassets in Resources */,
 				7F0E16A6213731F9008EB4F4 /* Main.storyboard in Resources */,
+				7F5280F52137438700D5D34B /* GameTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,10 +257,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Games/Pods-Games-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/YouTubePlayer/YouTubePlayer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouTubePlayer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -229,11 +277,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F0E16A3213731F9008EB4F4 /* ViewController.swift in Sources */,
+				7F5280EE213742B500D5D34B /* GameDetailViewController.swift in Sources */,
 				7F0E16A9213731F9008EB4F4 /* Games.xcdatamodeld in Sources */,
 				7F5280E32137363500D5D34B /* User.swift in Sources */,
 				7F0E16B821373521008EB4F4 /* OnlineService.swift in Sources */,
+				7F5280E92137424500D5D34B /* GamesViewController.swift in Sources */,
+				7F14D4FB21386E0800FE73F2 /* NotificationConstants.swift in Sources */,
+				7F5280F42137438700D5D34B /* GameTableViewCell.swift in Sources */,
 				7F0E16A1213731F9008EB4F4 /* AppDelegate.swift in Sources */,
 				7F0E16B621373236008EB4F4 /* Game.swift in Sources */,
+				7F5280E72137423900D5D34B /* UserDetailsViewController.swift in Sources */,
+				7F5280E52137422B00D5D34B /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
