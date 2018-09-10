@@ -32,7 +32,7 @@ class User {
     }
     
     init?(userDictionary: [String : Any]) {
-        guard let name = userDictionary[userKeys.name] as? String, let lastName = userDictionary[userKeys.lastName] as? String, let avatarURL = userDictionary[userKeys.avatarURL] as? String, let email = userDictionary[userKeys.email] as? String, let birthday = userDictionary[userKeys.birthday] as? String, let address = userDictionary[userKeys.address] as? String, let city = userDictionary[userKeys.city] as? String, let country = userDictionary[userKeys.country] as? String ,let token = userDictionary[userKeys.token] as? String else {
+        guard let name = userDictionary[userKeys.name] as? String, let lastName = userDictionary[userKeys.lastName] as? String, let avatarURL = userDictionary[userKeys.avatarURL] as? String, let email = userDictionary[userKeys.email] as? String, let birthday = userDictionary[userKeys.birthday] as? String, let address = userDictionary[userKeys.address] as? String, let city = userDictionary[userKeys.city] as? String, let country = userDictionary[userKeys.country] as? String, let token = userDictionary[userKeys.token] as? String else {
             return nil
         }
         self.name = name
